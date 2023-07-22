@@ -78,5 +78,5 @@ public class HorseTest {
 
             utilities.verify(() -> Horse.getRandomDouble(0.2, 0.9));
         }
-    }tes
+    }
 }
