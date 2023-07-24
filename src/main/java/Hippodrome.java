@@ -23,6 +23,7 @@ public class Hippodrome {
     }
 
     public void move() {
+        //horses.get(5).move();
         horses.forEach(Horse::move);
     }
 
