@@ -12,6 +12,6 @@ class MainTest {
     @Test
     @Timeout(value = 22, unit = TimeUnit.SECONDS)
     void main() throws Exception {
-        Main.main(new String[]{});
+        Main.main(null);
     }
 }
